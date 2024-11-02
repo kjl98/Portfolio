@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	background-color: rgb(247, 241, 233);
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+	height: 30px;
+	width: 100px;
+	border-radius: 5px;
+	border-top: unset;
+	border-left: unset;
+	margin-top: 50px;
+	margin-left: 950px;
+}
+
+button:hover{
+	background-color: snow;
+	border-color: rgb(227, 228, 229);
+	color: dimgrey;
+}
+
+#img img{
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	margin-left: 630px;
+	margin-top: -20px;
+}
+
+#p1,#p2,#p3{
+	text-align: center;
+}
+
+#p1{
+	margin-top: 20px;
+	font-size: larger;
+	color: rgb(23, 22, 22);
+	font-weight: 900;
+}
+
+#p2{
+	margin-top: 10px;
+}
+
+#p2,#p3{
+    font-size: small;
+	color: rgb(69, 70, 70);
+}
+
+.div{
+	margin-left: 460px;
+	margin-top: 40px;
+	border-radius: 10px;
+	height: 50px;
+	width: 600px;
+	background-color: rgb(242, 246, 249);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.div a{
+	background-color: rgb(242, 246, 249);
+	color: rgb(94, 95, 95);
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.div a i{
+	background-color: rgb(242, 246, 249);
+}
+
+.div a:hover{
+	cursor: pointer;
+	color: rgb(28, 29, 29);
+	font-size: 21px;
+	font-weight: 700;
+}
+
+.div:hover{
+	height: 52px;
+}
+
+#first-div{
+	margin-top: 50px;
+}
+
+#last-div{
+	margin-bottom: 50px;
+}
+
+#footer-section{
+	height: 20px;
+	width: 100%;
+	background-color: rgb(242, 246, 249);
+	text-align: center;
+	color: rgb(94, 95, 95);
+	margin-left: 5px;
+	font-size: smaller;
+}
